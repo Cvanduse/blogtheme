@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://blog.fwd2cv.com/"
 languageCode = "en-us"
 title = "Parsa | Personal Blog Template"
 theme = "parsa-hugo-personal-blog-theme"
@@ -46,17 +46,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   URL = "plugins/search/mark.js"
   [[params.plugins.js]]
   URL = "plugins/search/search.js"
-  
 
-  
+
+
 # navigation
 [menu]
-    
+
   [[menu.main]]
   name = "About"
   URL = "about"
   weight = 2
-  
+
   [[menu.main]]
   name = "Contact"
   URL = "contact"
@@ -71,7 +71,7 @@ homeLayoutToggle = true
 # Meta data
 description = "This is meta description"
 # about author
-author = "Themefisher"
+author = "Christopher Van Dusen"
 authorImage = "images/banner-img.png"
 shortDescription = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 # Contact Form Action
@@ -84,7 +84,7 @@ copyright = "a theme by [themefisher.com](themefisher.com)"
   # Preloader
   [params.preloader]
   enable = true
-  
+
   # search
   [params.search]
   enable = true
@@ -101,15 +101,15 @@ copyright = "a theme by [themefisher.com](themefisher.com)"
     #address
     [[params.footer.addresses]]
     address = "Troy MI"
-    
-    [[params.footer.addresses]]
-    address = "6 rip carl Avenue CA 90733"
 
-    
+    [[params.footer.addresses]]
+    address = "Test"
+
+
     #contact information
     [[params.footer.contacts]]
-    contactInfo = "Tel: +90 000 333 22"
-    
+    contactInfo = "Test"
+
     [[params.footer.contacts]]
     contactInfo = "Mail: exmaple@ymail.com"
 
@@ -118,15 +118,15 @@ copyright = "a theme by [themefisher.com](themefisher.com)"
   [[params.social]]
   icon = "ti-facebook"
   URL = "#"
-  
+
   [[params.social]]
   icon = "ti-twitter-alt"
   URL = "#"
-  
+
   [[params.social]]
   icon = "ti-linkedin"
   URL = "#"
-  
+
   [[params.social]]
   icon = "ti-github"
   URL = "#"

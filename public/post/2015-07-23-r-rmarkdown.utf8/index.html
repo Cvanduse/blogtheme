@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
-  <meta name="author" content="Christopher Van Dusen">
+  <meta name="author" content="Themefisher">
   <meta name="generator" content="Hugo 0.58.3" />
 
   <!-- plugins -->
@@ -83,7 +83,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h4>Valuable Idea</h4>
+        <h4>Hello R Markdown</h4>
       </div>
     </div>
   </div>
@@ -95,29 +95,59 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <div class="row masonry-container pt-5">
+        <ul class="list-inline d-flex justify-content-between py-3">
+          <li class="list-inline-item"><i class="ti-user mr-2"></i>Post by Themefisher</li>
+          <li class="list-inline-item"><i class="ti-calendar mr-2"></i>Jul 23, 2015</li>
+        </ul>
+        <article class="content">
+          <img src="/" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
           
-          
-        </div>
-        <div class="row">
-          <!-- pagination -->
-          <div class="col-12">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          </div>
-          <!-- /pagination -->
-        </div>
+
+<h1 id="r-markdown">R Markdown</h1>
+
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.</p>
+
+<p>You can embed an R code chunk like this:</p>
+
+<pre><code class="language-r">summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932
+</code></pre>
+
+<h1 id="including-plots">Including Plots</h1>
+
+<p>You can also embed plots. See Figure \@ref(fig:pie) for example:</p>
+
+<pre><code class="language-r">par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+</code></pre>
+
+<div class="figure">
+<img src="2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">(\#fig:pie)A fancy pie chart.</p>
+</div>
+
+        </article>
       </div>
-      
       <div class="col-lg-4">
   <div class="widget search-box">
     <form action="//search">
@@ -134,7 +164,7 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          <li class="list-inline-item">Post By Christopher Van Dusen</li>
+          <li class="list-inline-item">Post By Themefisher</li>
           <li class="list-inline-item">May 14, 2019</li>
         </ul>
         <h6><a class="text-dark" href="/charming-evening-field.1/">Charming Evening Field</a></h6>
@@ -147,7 +177,7 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          <li class="list-inline-item">Post By Christopher Van Dusen</li>
+          <li class="list-inline-item">Post By Themefisher</li>
           <li class="list-inline-item">May 14, 2019</li>
         </ul>
         <h6><a class="text-dark" href="/charming-evening-field.10/">Charming Evening Field</a></h6>
@@ -160,7 +190,7 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          <li class="list-inline-item">Post By Christopher Van Dusen</li>
+          <li class="list-inline-item">Post By Themefisher</li>
           <li class="list-inline-item">May 14, 2019</li>
         </ul>
         <h6><a class="text-dark" href="/charming-evening-field.11/">Charming Evening Field</a></h6>
@@ -214,7 +244,7 @@
             
             <li class="font-secondary text-dark">Troy MI</li>
             
-            <li class="font-secondary text-dark">Test</li>
+            <li class="font-secondary text-dark">6 rip carl Avenue CA 90733</li>
             
           </ul>
         </div>
@@ -222,7 +252,7 @@
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
             
-            <li class="font-secondary text-dark">Test</li>
+            <li class="font-secondary text-dark">Tel: &#43;90 000 333 22</li>
             
             <li class="font-secondary text-dark">Mail: exmaple@ymail.com</li>
             
