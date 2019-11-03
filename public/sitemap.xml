@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>/tags/article/</loc>
+    <loc>/categories/article/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/article/</loc>
+    <loc>/tags/article/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
@@ -113,12 +113,12 @@
   </url>
   
   <url>
-    <loc>/categories/nature/</loc>
+    <loc>/tags/nature/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nature/</loc>
+    <loc>/categories/nature/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
@@ -153,12 +153,12 @@
   </url>
   
   <url>
-    <loc>/categories/philosophy/</loc>
+    <loc>/tags/philosophy/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/philosophy/</loc>
+    <loc>/categories/philosophy/</loc>
     <lastmod>2019-05-14T14:46:10+06:00</lastmod>
   </url>
   
