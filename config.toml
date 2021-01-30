@@ -1,7 +1,12 @@
 baseURL = "https://blog.fwd2cv.com/"
 languageCode = "en-us"
+<<<<<<< HEAD
 title = "Chris Test | Personal Blog Template"
 theme = "parsa-hugo-personal-blog-theme"
+=======
+title = "Chris Test | Personal Blog Template"
+theme = "parsa-hugo"
+>>>>>>> master
 summaryLength = "10"
 paginate = 6
 
