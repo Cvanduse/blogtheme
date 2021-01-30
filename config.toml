@@ -1,7 +1,7 @@
 baseURL = "https://blog.fwd2cv.com/"
 languageCode = "en-us"
 title = "Chris | Personal Blog Template"
-theme = "parsa-hugo-personal-blog-theme"
+theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
 
