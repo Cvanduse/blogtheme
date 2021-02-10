@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Chris | Personal Blog Template</title>
-    <link>https://blog.fwd2cv.com/tags/</link>
-    <description>Recent content in Tags on Chris | Personal Blog Template</description>
+    <title>Tags on Website of Jane Doe</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Tue, 14 May 2019 14:46:10 +0600</lastBuildDate>
     
-	<atom:link href="https://blog.fwd2cv.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Article</title>
-      <link>https://blog.fwd2cv.com/tags/article/</link>
+      <link>https://example.com/tags/article/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/article/</guid>
+      <guid>https://example.com/tags/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fashion</title>
-      <link>https://blog.fwd2cv.com/tags/fashion/</link>
+      <link>https://example.com/tags/fashion/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/fashion/</guid>
+      <guid>https://example.com/tags/fashion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Finance</title>
-      <link>https://blog.fwd2cv.com/tags/finance/</link>
+      <link>https://example.com/tags/finance/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/finance/</guid>
+      <guid>https://example.com/tags/finance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Food</title>
-      <link>https://blog.fwd2cv.com/tags/food/</link>
+      <link>https://example.com/tags/food/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/food/</guid>
+      <guid>https://example.com/tags/food/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nature</title>
-      <link>https://blog.fwd2cv.com/tags/nature/</link>
+      <link>https://example.com/tags/nature/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/nature/</guid>
+      <guid>https://example.com/tags/nature/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philosophy</title>
-      <link>https://blog.fwd2cv.com/tags/philosophy/</link>
+      <link>https://example.com/tags/philosophy/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/philosophy/</guid>
+      <guid>https://example.com/tags/philosophy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>https://blog.fwd2cv.com/tags/photos/</link>
+      <link>https://example.com/tags/photos/</link>
       <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/photos/</guid>
+      <guid>https://example.com/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>https://blog.fwd2cv.com/tags/plot/</link>
+      <link>https://example.com/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/plot/</guid>
+      <guid>https://example.com/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>https://blog.fwd2cv.com/tags/r-markdown/</link>
+      <link>https://example.com/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/r-markdown/</guid>
+      <guid>https://example.com/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>https://blog.fwd2cv.com/tags/regression/</link>
+      <link>https://example.com/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://blog.fwd2cv.com/tags/regression/</guid>
+      <guid>https://example.com/tags/regression/</guid>
       <description></description>
     </item>
     
