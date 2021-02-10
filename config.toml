@@ -1,132 +1,101 @@
-baseURL = "https://blog.fwd2cv.com/"
-languageCode = "en-us"
-title = "Chris | Personal Blog Template"
-theme = "Anatole"
-summaryLength = "10"
-paginate = 6
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Jane Doe"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+# Enable Disqus
+#disqusShortname = ""
 
+# Google Analytics
+#googleAnalytics = "UA-123-45"
 
-[outputs]
-  home = ["HTML", "AMP", "RSS", "JSON"]
-  page = ["HTML"]
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
-# Plugins
-[params.plugins]
+[params]
+title = "I'm Jane Doe"
+author = "Jane Doe"
+#copyright = "2020-2021"
+description = "Call me Jane"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+# indexDateFormat = "Mon, Jan 2, 2006"
+# listDateFormat = "Jan 2"
+# singleDateFormat = "Mon, Jan 2, 2006"
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
+[params.simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
 
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/headroom/headroom.js"
-  [[params.plugins.js]]
-  URL = "plugins/instafeed/instafeed.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/masonry/masonry.js"
-  [[params.plugins.js]]
-  URL = "plugins/reading-time/readingTime.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/smooth-scroll/smooth-scroll.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/fuse.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/mark.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/search.js"
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
 
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
 
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/lxndrblz/anatole/"
 
-# navigation
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@alexbilz.com"
+
+## Menu items
+
 [menu]
 
   [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
   name = "About"
-  URL = "about"
-  weight = 2
+  weight = 300
+  identifier = "about"
+  url = "/about/"
 
   [[menu.main]]
   name = "Contact"
-  URL = "contact"
-  weight = 3
-
-
-[params]
-logo = "images/logo.png"
-home = "Home"
-# hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
-homeLayoutToggle = true
-# Meta data
-description = "This is meta description"
-# about author
-author = "Christopher Van Dusen"
-authorImage = "images/banner-img.png"
-shortDescription = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
-# Contact Form Action
-contactFormAction = "#"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# copyright
-copyright = "a"
-
-  # Preloader
-  [params.preloader]
-  enable = true
-
-  # search
-  [params.search]
-  enable = true
-
-  # Instagram feed
-  [params.instafeed]
-  enable = true
-  userID = "4044026246"
-  accessToken = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
-
-  # footer
-  [params.footer]
-
-    #address
-    [[params.footer.addresses]]
-    address = "Troy MI"
-
-    [[params.footer.addresses]]
-    address = "Test"
-
-
-    #contact information
-    [[params.footer.contacts]]
-    contactInfo = "Test"
-
-    [[params.footer.contacts]]
-    contactInfo = "Mail: exmaple@ymail.com"
-
-
-  # social site
-  [[params.social]]
-  icon = "ti-facebook"
-  URL = "#"
-
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  URL = "#"
-
-  [[params.social]]
-  icon = "ti-linkedin"
-  URL = "#"
-
-  [[params.social]]
-  icon = "ti-github"
-  URL = "#"
+  weight = 400
+  identifier = "contact"
+  url = "/contact/"
